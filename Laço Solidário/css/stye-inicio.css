@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Quicksand", sans-serif; 
+}
+
+/* CABEÇALHO */
+
+.cabecalho{ 
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    padding: 0.5vh 1vh;
+}
+
+
+.eventos-bold, .sobre-bold {
+    font-weight: bold;
+}
+
+.botao-dados-usuario{
+    padding: 5px;
+    background-color: #B127D9;
+    border-radius: 5px;
+    border: 0px solid #3c014d;
+    width: 150px;
+}
+
+.botao-dados-usuario:hover{
+    cursor: pointer;
+    background-color: #C88DF5;
+    fill: white;
+    color: #3c004d;
+}
+
+.meu-perfil{
+    color: white;
+}
+
+#user-login-icon{
+    margin-right: 1.7vh;
+}
+
+#user-login-icon:hover{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+    
+
+#inicio-cabecalho{
+    font-weight: bold;
+}
+
+#botao-doar {
+    color:#418747;
+    border-color:#418747;
+    font-size: 21px;
+}
+
+svg{
+    margin-bottom: 2.5px;
+    margin-right: 4px;
+}
+
+#botao-doar:hover, svg:hover{
+    color:white;
+    background-color: #418747;
+    border-color: white;
+}
+
+
+.menu-navegacao, li{
+    display: inline;
+    margin-left: 24px;
+    cursor:pointer;
+    list-style: none;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cadastro-inicio {
+    background-color: #418747;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.login-inicio{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+.carousel-inner{
+    margin-top: 15px;
+}
+
